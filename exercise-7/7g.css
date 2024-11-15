@@ -1,0 +1,29 @@
+
+.twitter-box {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+}
+
+.a {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.b {
+    color: gray;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.c {
+    margin: auto;
+    font-weight: bold;
+    height: 60px;
+    width: 120px;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1DA1F2;
+    color: white;
+}
