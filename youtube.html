@@ -11,12 +11,18 @@
         }
 
         .search-bar {
-            font-size: 20px;
-            margin-left: 12px;
+            display: block;
         }
 
         .video-title {
             width: 300px;
+        }
+
+        .video-preview {
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+            margin-right: 15px;
         }
 
     </style>
@@ -24,16 +30,33 @@
 <body>
     <input  class="search-bar" type="text" placeholder="Search">
 
-    <img class="thumbnail" src="thumbnail-1.png" alt="">
     
-    <p class="video-title">
-        HTML & CSS Full Course - Beginner to Pro
-    </p>
-    <p class="video-author">
-        SuperSimpleDev
-    </p>
-    <p class="video-stats">
-        12M views &#8226; 2 years ago
-    </p>
+    <div class="video-preview">
+        <img class="thumbnail" src="thumbnail-1.png" alt="">
+    
+        <p class="video-title">
+            HTML & CSS Full Course - Beginner to Pro
+        </p>
+        <p class="video-author">
+            SuperSimpleDev
+        </p>
+        <p class="video-stats">
+            12M views &#8226; 2 years ago
+        </p>
+    </div>
+
+    <div class="video-preview">
+        <img class="thumbnail" src="thumbnail-2.png" alt="">
+    
+        <p class="video-title">
+            JavaScript Tutorial Full Course - Beginner to Pro (2024)
+        </p>
+        <p class="video-author">
+            SuperSimpleDev
+        </p>
+        <p class="video-stats">
+            2.6M views &#8226; 6 months ago
+        </p>
+    </div>
 </body>
 </html>
