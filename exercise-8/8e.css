@@ -1,0 +1,33 @@
+* {
+    font-family: Arial;
+}
+
+p {
+    font-size: 24px;
+}
+
+input {
+    display: block;
+    width: 250px;
+    padding: 10px 12px;
+}
+
+.pickup {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.destination {
+    margin-bottom: 15px;
+}
+
+.btn-now , .btn-later {
+    padding: 10px 12px;
+    border: none;
+}
+
+.btn-now {
+    background-color: black;
+    color: white;
+}
