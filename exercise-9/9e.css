@@ -1,0 +1,35 @@
+.tweet-box {
+    width: 450px;
+    border-radius: 6px;
+    padding: 12px 10px;
+    border: none;
+    font-family: Arial;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cat-pic {
+    display: inline-block;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.tweet {
+    display: inline-block;
+    color: rgb(96, 96, 96);
+    width: 300px;
+    margin-left: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.tweet-btn {
+    display: inline-block;
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
