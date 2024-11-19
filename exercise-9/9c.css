@@ -1,0 +1,10 @@
+.survey {
+    border: 1px solid rgb(96, 96, 96);
+    font-family: Arial;
+    width: 300px;
+    padding: 20px 15px;
+}
+
+.question {
+    margin-top: 0;
+}
