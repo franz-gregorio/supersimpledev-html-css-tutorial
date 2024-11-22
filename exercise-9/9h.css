@@ -1,0 +1,27 @@
+.google-img {
+    width: 500px;
+    margin: auto;
+}
+
+.search-bar {
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    border: none;
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2)
+}
+
+.btn-a, .btn-b {
+    background-color: rgb(230, 224, 224);
+    padding: 12px 16px;
+    border: none;
+    margin: 20px 5px;
+}
+
+
+.img-box , .search-box , .btn-box {
+    text-align: center;
+}
