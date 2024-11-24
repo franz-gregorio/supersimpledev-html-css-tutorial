@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>YouTube.com Clone</title>
     <style>
+
+        p {
+            font-family: Roboto, Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
         .thumbnail {
             display: block;
             width: 300px;
@@ -14,15 +24,50 @@
             display: block;
         }
 
-        .video-title {
-            width: 300px;
-        }
-
         .video-preview {
             display: inline-block;
             width: 300px;
             vertical-align: top;
             margin-right: 15px;
+        }
+
+        .video-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-top: 0;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+
+        .channel-pic {
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+        }
+
+        .video-info {
+            display: inline-block;
+            width: 200px;
+        }
+
+        .profile-pic {
+            width: 40px;
+            border-radius: 20px;
+        }
+
+        .thumbnail-row {
+            margin-bottom: 12px;
+        }
+
+        .video-author {
+            font-size: 12px;
+            color: rgb(96, 96, 96);
+            margin-bottom: 5px;
+        }
+
+        .video-stats {
+            font-size: 12px;
+            color: rgb(96, 96, 96);
         }
 
     </style>
@@ -32,31 +77,48 @@
 
     
     <div class="video-preview">
-        <img class="thumbnail" src="thumbnail-1.png" alt="">
-    
-        <p class="video-title">
-            HTML & CSS Full Course - Beginner to Pro
-        </p>
-        <p class="video-author">
-            SuperSimpleDev
-        </p>
-        <p class="video-stats">
-            12M views &#8226; 2 years ago
-        </p>
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail-1.png" alt="">
+        </div>
+        <div>
+            <div class="channel-pic">
+                <img class="profile-pic" src="channel-pictures/channel-pic.jpg" alt="video-creator-pic">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    HTML & CSS Full Course - Beginner to Pro
+                </p>
+                <p class="video-author">
+                    SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                    12M views &#8226; 2 years ago
+                </p>
+            </div>   
+        </div>
     </div>
 
     <div class="video-preview">
-        <img class="thumbnail" src="thumbnail-2.png" alt="">
-    
-        <p class="video-title">
-            JavaScript Tutorial Full Course - Beginner to Pro (2024)
-        </p>
-        <p class="video-author">
-            SuperSimpleDev
-        </p>
-        <p class="video-stats">
-            2.6M views &#8226; 6 months ago
-        </p>
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail-2.png" alt="">
+        </div>
+
+        <div>
+            <div class="channel-pic">
+                <img class="profile-pic" src="channel-pictures/channel-pic.jpg" alt="video-creator-pic">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    JavaScript Tutorial Full Course - Beginner to Pro (2024)
+                </p>
+                <p class="video-author">
+                    SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                    2.6M views &#8226; 6 months ago
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
