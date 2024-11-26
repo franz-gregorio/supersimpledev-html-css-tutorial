@@ -1,0 +1,16 @@
+.three-columns {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.a {
+    background-color: lightblue;
+}
+
+.b {
+    background-color: lightpink;
+}
+
+.c {
+    background-color: lightblue;
+}
