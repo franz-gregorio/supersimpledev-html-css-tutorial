@@ -16,8 +16,7 @@
         }
 
         .thumbnail {
-            display: block;
-            width: 300px;
+            width: 100%;
         }
 
         .search-bar {
@@ -25,10 +24,7 @@
         }
 
         .video-preview {
-            display: inline-block;
-            width: 300px;
-            vertical-align: top;
-            margin-right: 15px;
+            
         }
 
         .video-title {
@@ -64,55 +60,155 @@
             color: rgb(96, 96, 96);
         }
 
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+
     </style>
 </head>
 <body>
+
     <input  class="search-bar" type="text" placeholder="Search">
 
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-1.png" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pictures/supersimpledev-pic.jpg" alt="video-creator-pic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                    </p>
+                    <p class="video-author">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        12M views &#8226; 2 years ago
+                    </p>
+                </div>   
+            </div>
+        </div>
     
-    <div class="video-preview">
-        <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnail-1.png" alt="">
-        </div>
-        <div class="video-info-grid">
-            <div class="channel-pic">
-                <img class="profile-pic" src="channel-pictures/channel-pic.jpg" alt="video-creator-pic">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-2.png" alt="">
             </div>
-            <div class="video-info">
-                <p class="video-title">
-                    HTML & CSS Full Course - Beginner to Pro
-                </p>
-                <p class="video-author">
-                    SuperSimpleDev
-                </p>
-                <p class="video-stats">
-                    12M views &#8226; 2 years ago
-                </p>
-            </div>   
+    
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pictures/supersimpledev-pic.jpg" alt="video-creator-pic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        JavaScript Tutorial Full Course - Beginner to Pro (2024)
+                    </p>
+                    <p class="video-author">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                        2.6M views &#8226; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-3.png" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pictures/kodekloud-pic.jpg" alt="video-creator-pic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        What Is Kubernetes - The Engine Behind Google's massive Container Systems | KodeKloud
+                    </p>
+                    <p class="video-author">
+                        KodeKloud
+                    </p>
+                    <p class="video-stats">
+                        774K views &#8226; 5 years ago
+                    </p>
+                </div>   
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-4.png" alt="">
+            </div>
+    
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pictures/pracnet-pic.jpg" alt="video-creator-pic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Network Devices - Hosts, IP Addresses, Networks - Networking Fundamentals - Lesson 1a
+                    </p>
+                    <p class="video-author">
+                        Practical Networking
+                    </p>
+                    <p class="video-stats">
+                        1M views &#8226; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-5.png" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pictures/johnsaville-pic.jpg" alt="video-creator-pic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Azure Master Class v2 - Introduction
+                    </p>
+                    <p class="video-author">
+                        John Saville
+                    </p>
+                    <p class="video-stats">
+                        94K views &#8226; 1 year ago
+                    </p>
+                </div>   
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-6.png" alt="">
+            </div>
+    
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-pictures/technana-pic.jpg" alt="video-creator-pic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        What is DevOps? REALLY understand it | DevOps vs SRE
+                    </p>
+                    <p class="video-author">
+                        TechWorld with Nana
+                    </p>
+                    <p class="video-stats">
+                        970K views &#8226; 2 years ago
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="video-preview">
-        <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnail-2.png" alt="">
-        </div>
-
-        <div class="video-info-grid">
-            <div class="channel-pic">
-                <img class="profile-pic" src="channel-pictures/channel-pic.jpg" alt="video-creator-pic">
-            </div>
-            <div class="video-info">
-                <p class="video-title">
-                    JavaScript Tutorial Full Course - Beginner to Pro (2024)
-                </p>
-                <p class="video-author">
-                    SuperSimpleDev
-                </p>
-                <p class="video-stats">
-                    2.6M views &#8226; 6 months ago
-                </p>
-            </div>
-        </div>
-    </div>
+    
 </body>
 </html>
