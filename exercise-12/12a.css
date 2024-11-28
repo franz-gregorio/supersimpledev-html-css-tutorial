@@ -1,0 +1,14 @@
+.flex-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.a {
+    background-color: lightcyan;
+    width: 200px;
+}
+
+.b {
+    background-color: lightcoral;
+    width: 75px;
+}
