@@ -1,0 +1,12 @@
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a, .b {
+    background-color: lightcoral;
+}
