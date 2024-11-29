@@ -1,0 +1,9 @@
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.a, .b, .c, .d {
+    background-color: lightcoral;
+}
