@@ -1,0 +1,33 @@
+.big-div {
+    font-family: Arial;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px 12px;
+    width: 300px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.small-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-item {
+    font-weight: bold;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
