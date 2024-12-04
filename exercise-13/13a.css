@@ -1,0 +1,23 @@
+.big-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.a {
+    width: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b {
+    width: 200px;
+    background-color: lightcyan;
+}
+
+.c {
+    background-color: black;
+    color: white;
+}
