@@ -1,0 +1,13 @@
+body {
+    height: 3000px;
+}
+
+.right-side {
+    background-color: green;
+    color: white;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
