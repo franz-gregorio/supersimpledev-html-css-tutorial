@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    left: 20px;
+    font-family: Arial;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profile-pic {
+    width: 50px;
+    border-radius: 25px;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.add-btn {
+    background-color: rgb(66, 103, 178);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.message-btn {
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
