@@ -1,0 +1,44 @@
+body {
+    height: 3000px;
+}
+
+.right-side {
+    background-color: green;
+    color: white;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-top: 0;
+}
+
+.modal-box {
+    background-color: white;
+    border: none;
+    width: 300px;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
