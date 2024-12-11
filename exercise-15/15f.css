@@ -1,0 +1,45 @@
+.body {
+    height: 3000px;
+}
+
+.item-box {
+    position: relative;
+    display: inline-block;
+    border: 1px solid slategray;
+}
+
+.item-pic {
+    width: 250px;
+}
+
+.discount {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.select-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 75px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-btn {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-family: Roboto, AriaL;
+    font-size: 12px;
+    padding: 5px 10px;
+}
