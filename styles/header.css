@@ -61,7 +61,10 @@
 }
 
 .search-btn,
-.voice-search-btn {
+.voice-search-btn,
+.upload-icon-container,
+.youtube-apps-icon-container,
+.notifications-icon-container {
     position: relative;
     display: flex;
     align-items: center;
@@ -70,7 +73,11 @@
 
 
 .search-btn .tooltip, 
-.voice-search-btn .tooltip {
+.voice-search-btn .tooltip,
+.upload-icon-container .tooltip,
+.youtube-apps-icon-container .tooltip,
+.notifications-icon-container .tooltip {
+    font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
     color: white;
@@ -85,7 +92,10 @@
 }
 
 .search-btn:hover .tooltip,
-.voice-search-btn:hover .tooltip {
+.voice-search-btn:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip {
     opacity: 1;
 }
 
